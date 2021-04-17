@@ -15,18 +15,17 @@
 */
 static int __init hello_world_init(void)
 {
-    pr_info("Welcome to Device Driver by nayan\n");
-    pr_info("This is the Simple Module\n");
-    pr_info("Kernel Module Inserted Successfully...\n");
+    printk(KERN_INFO "Welcome to EmbeTronicX\n");
+    printk(KERN_INFO "This is the Simple Module\n");
+    printk(KERN_INFO "Kernel Module Inserted Successfully...\n");
     return 0;
 }
-
 /*
 ** Module Exit function
 */
 static void __exit hello_world_exit(void)
 {
-    pr_info("Kernel Module Removed Successfully...\n");
+    printk(KERN_INFO "Kernel Module Removed Successfully...\n");
 }
  
 module_init(hello_world_init);
