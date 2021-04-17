@@ -1,7 +1,7 @@
 ## First module hello_world
 
-### Install Raspberrypi Kernal Header
-Use below command to install kernal header for raspberrypi
+### Install Raspberrypi Kernel Header
+Use below command to install kernel header for raspberrypi
 
 `sudo apt install raspberrypi-kernel-headers`
 	 
@@ -18,7 +18,7 @@ Use below command to install kernal header for raspberrypi
 
  ### Load The Device Driver and view loaded module
  
-   Use below command to lad the module in kernal
+   Use below command to lad the module in kernel
     
    `sudo insmod hello_world_module.ko`
 
